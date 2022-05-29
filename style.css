@@ -1,5 +1,18 @@
 /* My Styling */
 
+/* Center to page */
 body {
-    background-color: lightgrey;
-}
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+  }
+
+/* Section styling/Bubble */
+section {
+    background: rgba(102, 0, 243, .25);
+    border: solid rgba(146, 231,250, .25);
+    border-radius: 100%;
+    backface-visibility: 25%;
+  }
